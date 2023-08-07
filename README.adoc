@@ -1,1 +1,59 @@
-= The Great wildlife Analytics Hub
+//***********************************************
+//***************** SETTINGS ********************
+//***********************************************
+
+:doctype: book
+:use-link-attrs:
+:linkattrs:
+
+// -- Table of Contents
+
+:toc:
+:toclevels: 5
+:toc-title: 
+:toc-placement!:
+
+// -- Icons
+
+ifdef::env-github[]
+
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
+
+ifdef::env-github[]
+:status:
+:outfilesuffix: .asciidoc
+endif::[]
+
+:sectanchors:
+//:numbered:
+
+
+//************* END OF SETTINGS ******************
+//************************************************
+
+
+
+
+
+
+= The Great Wildlife Analytics Hub
+
+toc::[]
+
+== Birds
+=== Identifikation
+==== Classification
+- link:https://github.com/kahst/BirdNET-Lite[BirdNET-Lite] link:[[Paper]]
+- link:https://github.com/kahst/BirdNET-Analyzer[BirdNET-Analyzer]
+
+=== Datasets
+=== Competitions
+==== BirdCLEF
+- link:https://www.kaggle.com/competitions/birdclef-2021[BirdCLEF 2021]
+- link:https://www.kaggle.com/competitions/birdclef-2022[BirdCLEF 2022]
+- link:https://www.kaggle.com/competitions/birdclef-2023[BirdCLEF 2023]
