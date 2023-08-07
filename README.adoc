@@ -46,12 +46,49 @@ endif::[]
 toc::[]
 
 == Birds
+== Importand persons in the field:
+- Stefan Kahl: https://orcid.org/0000-0002-2411-8877
+
 === Identifikation
 ==== Classification
-- link:https://github.com/kahst/BirdNET-Lite[BirdNET-Lite] link:[[Paper]]
+- link:https://github.com/kahst/BirdNET-Lite[BirdNET-Lite] -> link:https://nbn-resolving.org/urn:nbn:de:bsz:ch1-qucosa2-369869[Dissertation from Stefan Kahl]
 - link:https://github.com/kahst/BirdNET-Analyzer[BirdNET-Analyzer]
 
 === Datasets
+// -- Datasets
+
+- 2020 BirdCLEF Validation Audio and Ground Truth:
+https://www.kaggle.com/imoore/birdclef2020-validation-audio-and-ground-truth
+
+- 16GB extended Xeno-Canto Bird Recordings Dataset:
+https://www.kaggle.com/imoore/xenocanto-bird-recordings-dataset
+
+- Extended dataset of previous Cornell Birdcall Identification
+https://www.kaggle.com/c/birdsong-recognition/discussion/159970
+
+- 2020 "Cornell Birdcall Identification" competition:
+https://www.kaggle.com/c/birdsong-recognition/data
+
+- 2020 LifeCLEF Bird challenge:
+https://www.aicrowd.com/challenges/lifeclef-2020-bird-monophone
+
+- 2013 bird classification competitions:
+https://www.kaggle.com/c/mlsp-2013-birds/data
+https://www.kaggle.com/c/multilabel-bird-species-classification-nips2013/data
+
+- 17h videos of bird vocalization, bird call, and bird song from Google Research:
+https://research.google.com/audioset/dataset/bird_vocalization_bird_call_bird_song.html
+
+- 130000 animal sound archive:
+https://www.gbif.org/dataset/b7ec1bf8-819b-11e2-bad2-00145eb45e9a
+
+Many of these datasets are created based on data from "xeno-canto" website, which is dedicated to sharing bird sounds from all over the world: https://www.xeno-canto.org/
+
+=== Paper
+- https://ai.googleblog.com/2022/01/separating-birdsong-in-wild-for.html
+- https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.13928
+
+
 === Competitions
 ==== BirdCLEF
 - link:https://www.kaggle.com/competitions/birdclef-2021[BirdCLEF 2021]
