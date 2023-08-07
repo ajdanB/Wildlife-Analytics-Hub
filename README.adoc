@@ -46,16 +46,39 @@ endif::[]
 toc::[]
 
 == Birds
-== Importand persons in the field:
+=== Importand persons in the field:
 - Stefan Kahl: https://orcid.org/0000-0002-2411-8877
 
-=== Identifikation
-==== Classification
+=== Audio
+
+==== Identifikation
+===== Classification
 - link:https://github.com/kahst/BirdNET-Lite[BirdNET-Lite] -> link:https://nbn-resolving.org/urn:nbn:de:bsz:ch1-qucosa2-369869[Dissertation from Stefan Kahl]
 - link:https://github.com/kahst/BirdNET-Analyzer[BirdNET-Analyzer]
 
-=== Datasets
+==== Datasets
 // -- Datasets
+
+- A collection of fully-annotated soundscape recordings from the Island of Hawai'i
+https://zenodo.org/record/7078499
+
+- A collection of fully-annotated soundscape recordings from the Southwestern Amazon Basin
+https://zenodo.org/record/7079124
+
+- A collection of fully-annotated soundscape recordings from the Northeastern United States
+https://zenodo.org/record/7079380
+
+- A collection of fully-annotated soundscape recordings from the Western United States
+https://zenodo.org/record/7050014
+
+- A collection of fully-annotated soundscape recordings from the southern Sierra Nevada mountain range
+https://zenodo.org/record/7525805
+
+- A collection of fully-annotated soundscape recordings from neotropical coffee farms in Colombia and Costa Rica
+https://zenodo.org/record/7525349
+
+- Bird Separation Dataset
+https://www.kaggle.com/datasets/chenyonghuan/bird-separation-dataset
 
 - 2020 BirdCLEF Validation Audio and Ground Truth:
 https://www.kaggle.com/imoore/birdclef2020-validation-audio-and-ground-truth
@@ -82,15 +105,39 @@ https://research.google.com/audioset/dataset/bird_vocalization_bird_call_bird_so
 - 130000 animal sound archive:
 https://www.gbif.org/dataset/b7ec1bf8-819b-11e2-bad2-00145eb45e9a
 
+- Request data from Macualay Library: https://support.ebird.org/en/support/solutions/articles/48001064551-requesting-and-downloading-media
+
 Many of these datasets are created based on data from "xeno-canto" website, which is dedicated to sharing bird sounds from all over the world: https://www.xeno-canto.org/
 
-=== Paper
+==== Paper
 - https://ai.googleblog.com/2022/01/separating-birdsong-in-wild-for.html
 - https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.13928
+- https://www.mdpi.com/2076-2615/12/22/3117
 
+==== Tools
+- https://github.com/schonkopf/soundscape_IR
+- Some labeling tools: https://github.com/HumanSignal/awesome-data-labeling
+- link:https://vak.readthedocs.io/en/latest/index.html[vak: a neural network toolbox for animal vocalizations and bioacoustics]
+- https://docs.openvino.ai
 
-=== Competitions
-==== BirdCLEF
+==== Interresting Repos
+
+* https://github.com/google-research/sound-separation/tree/master
+** https://github.com/google-research/sound-separation/tree/master/models/bird_mixit
+** from https://ai.googleblog.com/2022/01/separating-birdsong-in-wild-for.html
+
+==== Competitions
+===== BirdCLEF
 - link:https://www.kaggle.com/competitions/birdclef-2021[BirdCLEF 2021]
 - link:https://www.kaggle.com/competitions/birdclef-2022[BirdCLEF 2022]
 - link:https://www.kaggle.com/competitions/birdclef-2023[BirdCLEF 2023]
+
+==== Best Practices
+- https://support.ebird.org/en/support/solutions/articles/48001214056-merlin-sound-id-best-practices
+- https://support.ebird.org/de/support/solutions/articles/48001064341-audio-preparation-and-upload-guidelines
+
+
+
+=== Photo
+==== Datasets
+- https://dl.allaboutbirds.org/nabirds
